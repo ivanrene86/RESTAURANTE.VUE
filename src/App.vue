@@ -106,7 +106,7 @@
     <!-- Modal de Factura -->
     <div v-if="mostrarFactura" class="modal-factura" @click.self="mostrarFactura = false">
       <div class="factura-content">
-        <h2>📄 FACTURA</h2>
+        <h2>📄 CARRITO</h2>
         <div class="factura-header">
           <p><strong>Restaurant</strong></p>
           <p>Fecha: {{ obtenerFechaActual() }}</p>
